@@ -1,19 +1,10 @@
 
   body {
    font-family: Arial, Helvetica, sans-serif;
-   background-image: url(../Img/Fondo-Iniciar\ Sesión.png);
+   background-image: url(../Img/Fondo-IniciarSesión.png);
    background-repeat: no-repeat;
   }
-  
-  .contant {
-    min-height: 80px;
-    background: linear-gradient(
-      90deg,
-      rgb(188, 239, 237) 40%,
-      rgb(255, 214, 162) 100%
-    );
-  }
-  
+
   *{
     margin: 0;
     padding: 0;
