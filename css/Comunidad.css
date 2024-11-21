@@ -189,3 +189,52 @@ body {
       background-color: #f9f9f9;
       border-top: 1px solid #ddd;
     }
+
+    footer {
+      background: linear-gradient(90deg, rgb(212, 228, 227), rgb(240, 215, 182));
+      padding: 20px 0;
+      text-align: center;
+      border-top: 2px solid #ddd;
+    }
+    
+    .footer-container {
+      max-width: 800px;
+      margin: 0 auto;
+      color: #333;
+    }
+    
+    footer h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: #000000;
+    }
+    
+    footer p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+    
+    footer textarea {
+      width: 100%;
+      height: 100px;
+      margin-bottom: 10px;
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: none;
+    }
+    
+    footer button {
+      background-color: #46a9bb;
+      color: rgb(0, 0, 0);
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    
+    footer button:hover {
+      background-color: #1f7c80;
+    }
