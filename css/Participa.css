@@ -166,7 +166,10 @@ h1 {
   font-size: 24px;
 }
 
-.container {
+.subir {
+  display: flex;
+  flex-direction:column;
+  align-items: left;
   text-align: left;
 }
 
@@ -176,23 +179,62 @@ h1 {
   object-fit: cover;
   margin-bottom: 20px;
   border-radius: 10px;
+  margin-left: 35px;
+  margin-top: 80px;
 }
 
 .custom-file-upload {
   padding: 10px 20px;
   cursor: pointer;
-  background-color: #007bff;
-  color: white;
+  background-color: #0c6d68;
+  color: rgb(255, 255, 255);
   border: none;
   border-radius: 5px;
   font-size: 16px;
   transition: background-color 0.3s ease;
+  margin-left: 35px;
+  margin-right: 1140px;
+
 }
 
 .custom-file-upload:hover {
-  background-color: #0056b3;
+  background-color: #032325;
 }
 
 #file-upload {
   display: none;
+}
+
+.guia {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: right;
+  padding: 20px;
+  margin-top: -280px;
+  margin-right: 20px;
+}
+
+.guia-p {
+  width: 200px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.guia-p img {
+  width: 200px;
+  height: auto;
+  display: block;
+}
+
+.caption {
+  padding: 10px;
+  font-size: 16px;
+  color: #555;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ddd;
 }

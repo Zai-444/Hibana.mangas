@@ -25,13 +25,36 @@
             </nav>
 </header>
 <body>
-    <div class="container">
+    <div class="subir">
         <img src="../Img/Subir Archivos.png" alt="SubirArchivo" class="preview-image">
         <label for="file-upload" class="custom-file-upload">
           Subir Archivo
         </label>
         <input id="file-upload" type="file">
-      </div>
+        <script>
+            document.getElementById('file-upload').addEventListener('change', function () {
+             
+                window.location.href = '../html/Subido.html';
+            });
+        </script>
+    </div>
+    
+    <div class="guia">
+        <div class="guia-p">
+          <img src="../Img/1p.png" alt="">
+        </div>
+        <div class="guia-p">
+            <img src="../Img/2p.png" alt="">
+          </div>
+          <div class="guia-p">
+            <img src="../Img/3p.png" alt="">
+          </div>
+          <div class="guia-p">
+            <img src="../Img/4p.png" alt="">
+          </div>
+          <div class="guia-p">
+            <img src="../Img/5p.png" alt="">
+          </div>
   </body>
 </head>
 </html>

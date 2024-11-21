@@ -322,3 +322,31 @@
 .button-link:hover {
   background-color: #032325;
 }
+
+h2 {
+  font-size: 40px;
+  margin-top: -550px;
+  margin-left: 850px;
+}
+
+.news {
+ margin: 60px;
+}
+
+.links {
+ margin-left: 640px;
+ font-size: 20px;
+ padding: 10px;
+}
+
+.link .li {
+ margin: 80px;
+}
+
+.news .links a {
+  text-decoration: none;
+}
+
+.news .links a:hover {
+  text-decoration: underline;
+}
